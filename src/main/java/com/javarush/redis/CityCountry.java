@@ -8,7 +8,7 @@ import java.util.Set;
 public class CityCountry {
     private Integer id;
 
-    private String name;
+    private String cityName;
 
     private String district;
 
@@ -31,11 +31,11 @@ public class CityCountry {
     private Set<Language> languages;
 
     public String getName() {
-        return name;
+        return cityName;
     }
 
-    public void setName(String name) {
-        this.name = name;
+    public void setName(String cityName) {
+        this.cityName = cityName;
     }
 
     public Integer getId() {
